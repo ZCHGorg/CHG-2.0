@@ -1,0 +1,74 @@
+{
+	"web3Network":"4",
+	"erc20CoinContractAddress":"0x0030740494631cd406e202fe2b91517c7d689259",
+	"erc20ServiceContractAddress": "0x3aa23f332dabb8c23dbdaa0b0e5fa0f1a9c77715",
+
+	"scanUrl":"https://rinkeby.etherscan.io",
+	"web3WsProvider":"wss://rinkeby.infura.io/ws/v3/ad4910185a7c4e69bdf478a50b105416",
+	"web3HttpProvider":"https://rinkeby.infura.io/v3/ad4910185a7c4e69bdf478a50b105416",
+	
+	"web3HttpEtherProvider":"https://rinkeby.infura.io/v3/ad4910185a7c4e69bdf478a50b105416",
+	"web3HttpChargProvider":"http://localhost:8545",
+	"web3HttpChargProviderReal":"https://rpc.chgcoin.org",
+
+	"sellOrderEvent":"0xd89e9faf039295fc2c02f1928e7acb13b2aec5fa30a626fbae77862ba17b80d2",
+	"buyOrderEvent":"0xbb9a49b3eaad9d44fab2b413310c966abfc78aa799ac78c63344a7b6f044699e",
+	"sellEvent":"0xa09da31f0dedf4f47ea2c75c2b8ea5a79dcaba97b19def8b20dee51b858299ce",
+	"buyEvent":"0xe7b7cd2a58abb5403f3c8e07b31ddbe5a0a595c21d2a9f5f60885ee4c84ca2f4",
+	"cancelSellEvent":"0x93435e95cf48edd190f1db3db5e688dd39443ad1bf8d550d5ed7e72e58163aba",
+	"cancelBuyEvent":"0x38a0d19b45a221cfdc2aa42b006176bae0dd00d6f6ea7ee52420bbe2130d6955",
+	"serviceOnEvent":"0x8ab2af7d250bdf24af841924a57bc7335fb67d4af7cf47dc67b21e9876fa3edf",
+	"serviceOffEvent":"0x8ab2af7d250bdf24af841924a57bc7335fb67d4af7cf47dc67b21e9876fa3edf",
+	"nodeRegisteredEvent":"0x4358612de1db3fac41bf308f1e8453877e9201e32ddac447293c953f09f8f1df",
+	"nodeModifiedEvent":"0x11b46993a02725065cfa0609ad52bf07c96c173d13050516fdbcbc2a0f53ac61",
+
+	"precision": {
+		"CHG" : 1,
+		"ETH" : 5,
+		"LTC" : 5,
+		"BTC" : 7,
+		"USD" : 2,
+		"EUR" : 2
+	},
+
+	"coins": {
+		"BTC": {
+			"protocol": "bitcoin",
+			"explorer": "https://testnet.blockexplorer.com/address/"
+		},
+		"LTC": {
+			"protocol": "litecoin",
+			"explorer": "https://chain.so/address/LTCTEST/"
+		}
+	},
+
+	"gasLimit": 300000, 
+	"gasPrice": 4000000000, 
+
+	"defaultChgEthAsk": 0.00035, 
+	"defaultChgEthBid": 0.00015,
+
+	"erc20Network": 4,
+	"chargNetwork": 3700,
+
+	"web3Network-charg":"3400",
+	"chargContractAddress-charg":"0x0030740494631cd406e202fe2b91517c7d689259",
+	"serviceContractAddress-charg": "0x3aa23f332dabb8c23dbdaa0b0e5fa0f1a9c77715",
+	"scanUrl-charg":"https://explorer.chgcoin.org",
+	"web3WsProvider-charg":"wss://rpc.chgcoin.org",
+	"web3HttpProvider-charg":"https://rpc.chgcoin.org",
+
+	"web3Network-rink":"4",
+	"chargContractAddress-rink":"0x0030740494631cd406e202fe2b91517c7d689259",
+	"serviceContractAddress-rink": "0x3aa23f332dabb8c23dbdaa0b0e5fa0f1a9c77715",
+	"scanUrl-rink":"https://rinkeby.etherscan.io",
+	"web3WsProvider-rink":"wss://rinkeby.infura.io/ws/v3/ad4910185a7c4e69bdf478a50b105416",
+	"web3HttpProvider-rink":"https://rinkeby.infura.io/v3/ad4910185a7c4e69bdf478a50b105416",
+
+	"web3Network-rops":"3",
+	"chargContractAddress-rops":"0xf25ab2866c03542ce1054f906c106313685efa51",
+	"serviceContractAddress-rops": "0x0CcdA83d4bEc48071234DC25E967151A44A17649",
+	"scanUrl-rops":"https://ropsten.etherscan.io",
+	"web3WsProvider-rops":"wss://ropsten.infura.io/ws/v3/ad4910185a7c4e69bdf478a50b105416",
+	"web3HttpProvider-rops":"https://ropsten.infura.io/v3/ad4910185a7c4e69bdf478a50b105416"
+}
